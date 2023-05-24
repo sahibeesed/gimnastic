@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(192, 192, 192);
+    align-items: center;
+
+    .text {
+        width: 17%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .img {
+        width: 200px;
+        height: 40px;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .bt2 {
+            width: 70px;
+            height: 70px;
+            background-color: orangered;
+            border: 0;
+            color: white;
+            cursor: pointer;
+        }
+
+        .num {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 30%;
+
+
+
+    .item {
+        font-size: 13px;
+
+    }
+
+    .items {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 13px;
+
+    }
+}
+
+.section1 {
+    background-image: url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg.webp);
+    
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+   
+    .box{
+        padding-top: 5%;
+        background-color: rgba(26,30,35,0.7);
+    z-index: 999;
+        display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh;
+    }
+
+    .bigtx {
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .smalltx {
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    .writing{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10% 0;
+    }
+    .onetx{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        
+
+    }
+    .centertx{
+        color: grey;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        
+        .kart{
+            width: 25%;
+            height: 12vh;
+            box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 10px ;
+            gap: 10px;
+            
+            .reg{
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .lorem{
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                color: grey;
+                font-size: 15px;
+
+
+            }
+        }
+
+    }
+}
+.section3{
+    margin-top: 20%;
+    .onetx{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        
+
+    }
+    .centertx{
+        color: grey;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+        text-align: center;
+    }
+}
